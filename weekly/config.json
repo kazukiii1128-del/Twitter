@@ -1,0 +1,23 @@
+{
+  "anthropic": {
+    "api_key": "YOUR_ANTHROPIC_API_KEY"
+  },
+  "notion": {
+    "api_token": "YOUR_NOTION_API_TOKEN",
+    "weekly_report_db_id": "2fc86c6dc0468000a671e3ed32083c8f",
+    "member_name": "Kazuki",
+    "team_name": "JAPAN"
+  },
+  "instagram": {
+    "app_id": "1456998555820600",
+    "app_secret": "YOUR_IG_APP_SECRET",
+    "access_token": "YOUR_IG_ACCESS_TOKEN",
+    "ig_user_id": "17841473805016400",
+    "account_name": "grosmimi_jp"
+  },
+  "notes": {
+    "weekly_report_db_id": "노션 DB URL에서 추출. 예: notion.so/xxx?v=yyy → xxx 부분 (하이픈 없는 32자)",
+    "member_id": "Notion 계정의 User ID. Notion API → GET /v1/users 로 확인 가능",
+    "ig_user_id": "첫 실행 시 자동 감지되어 저장됨 (Facebook Page에 연결된 Instagram Business 계정 ID)"
+  }
+}
